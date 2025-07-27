@@ -5,6 +5,7 @@
 1. Win マークを右クリックし、管理者権限で Powershell を起動する
 
 1. WSL のインストール
+
    Powershell で下記コマンドを入力し、実行する
 
    ```
@@ -12,6 +13,8 @@
    ```
 
 1. Ubuntu のアップデート
+
+   Ubuntu コンソールで以下を実行して、Ubuntu をアップデートする
 
    ```
    sudo apt update && apt upgrade
@@ -48,6 +51,16 @@ Django 以外の環境と共存させるために、venv の仮想環境上に D
    sudo apt install python3.12-venv
    ```
 
+1. pip のインストール
+
+   pip は Python のパッケージ管理システムです。  
+   ライブラリやパッケージを簡単にインストールしたり、バージョン管理したりできるシステムのことです。  
+   この後 Django をインストールするので先に pip をインストールしておきます
+
+   ```
+   sudo apt install python3-pip
+   ```
+
 1. プロジェクトフォルダの作成
 
    ```
@@ -77,6 +90,18 @@ Django 以外の環境と共存させるために、venv の仮想環境上に D
    ```
 
    ※Django は仮想環境内にインストールしているため、deactivate 後は使用できないことに注意してください
+
+1. Django のインストール
+
+   仮想環境にいる状態で、Django をインストールします。
+
+   ```
+   (djangobros_venv) ~/DjangoBros$ python3 -m pip install django
+
+   または
+
+   (djangobros_venv) ~/DjangoBros$ sudo apt install python3-django
+   ```
 
 ## 参考サイト
 
