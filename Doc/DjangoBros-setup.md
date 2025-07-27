@@ -77,3 +77,13 @@ Django 以外の環境と共存させるために、venv の仮想環境上に D
    ```
 
    ※Django は仮想環境内にインストールしているため、deactivate 後は使用できないことに注意してください
+
+## 参考サイト
+
+・[WSL のインストール](https://learn.microsoft.com/ja-jp/windows/wsl/install)
+
+・[Windows(WSL2)上に Django 開発環境を構築する](https://qiita.com/tsubonnyu/items/cbcd6a377eb4dc18d09a)
+
+・[[Windows] 新しく PC 買ったので WSL2 を導入してみる](https://zenn.dev/ap_com/articles/install-wsl2-on-windows)
+
+・[WSL2 + Ubuntu + VSCode での開発環境構築](https://qiita.com/zaburo/items/27b5b819fae2bde97a3bQda3)
