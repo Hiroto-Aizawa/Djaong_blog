@@ -97,10 +97,6 @@ Django 以外の環境と共存させるために、venv の仮想環境上に D
 
    ```
    (djangobros_venv) ~/DjangoBros$ python3 -m pip install django
-
-   または
-
-   (djangobros_venv) ~/DjangoBros$ sudo apt install python3-django
    ```
 
 ## 参考サイト
@@ -112,3 +108,4 @@ Django 以外の環境と共存させるために、venv の仮想環境上に D
 ・[[Windows] 新しく PC 買ったので WSL2 を導入してみる](https://zenn.dev/ap_com/articles/install-wsl2-on-windows)
 
 ・[WSL2 + Ubuntu + VSCode での開発環境構築](https://qiita.com/zaburo/items/27b5b819fae2bde97a3bQda3)
+
